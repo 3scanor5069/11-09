@@ -1,0 +1,28 @@
+.featured-games {
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .game-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .game-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .game-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .game-card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
