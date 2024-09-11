@@ -1,0 +1,34 @@
+.game-item {
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    width: 250px;
+  }
+  
+  .game-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .game-image {
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+  
+  .game-details {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .game-details h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .game-details p {
+    color: #aaaaaa;
+    margin: 5px 0;
+  }
+  

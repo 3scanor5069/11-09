@@ -1,0 +1,89 @@
+.footer {
+    background-color: #191919;
+  color: #fff;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Estilos para los enlaces de redes sociales */
+  .social-media a,
+  .social-media .link {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover,
+  .social-media .link:hover {
+    color: #bbb;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .footer-column {
+    margin: 20px 0;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #aaa;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Estilos para los enlaces en las columnas de la derecha */
+  .footer-column ul li a,
+  .footer-column ul li .link {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-column ul li a:hover,
+  .footer-column ul li .link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .back-to-top {
+    align-self: flex-end;
+  }
+  
+  .back-to-top a,
+  .back-to-top .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .back-to-top a:hover,
+  .back-to-top .link:hover {
+    color: #bbb;
+  }
+  

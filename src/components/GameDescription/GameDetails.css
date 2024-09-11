@@ -1,0 +1,145 @@
+/* Estilos generales */
+.game-details-page {
+  background-color: #1b1b1b;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Banner del juego */
+.game-banner {
+  position: relative;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.game-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.game-banner-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.game-banner-overlay h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.game-banner-overlay p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.buy-now-button {
+  padding: 15px 30px;
+  background-color: #ff4655;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buy-now-button:hover {
+  background-color: #cc3744;
+}
+
+/* Información del juego */
+.game-details-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.game-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.game-media-image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.game-info {
+  width: 50%;
+}
+
+.game-info h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.game-info p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.game-price {
+  margin-bottom: 20px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.discounted-price {
+  color: #ff4655;
+  font-size: 2em;
+}
+
+.add-to-cart-button, .wishlist-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.add-to-cart-button {
+  background-color: #ff4655;
+  color: #fff;
+}
+
+.add-to-cart-button:hover {
+  background-color: #cc3744;
+}
+
+.wishlist-button {
+  background-color: #333;
+  color: #fff;
+}
+
+.wishlist-button:hover {
+  background-color: #444;
+}
+
+/* Estilos del Header */
+
+
+.cart-link {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}

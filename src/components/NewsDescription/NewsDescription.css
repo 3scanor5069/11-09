@@ -1,0 +1,30 @@
+.news-description {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.news-description-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.news-description h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.news-description h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.news-description p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

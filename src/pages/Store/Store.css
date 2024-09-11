@@ -1,23 +1,180 @@
-.products {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
+.store-container {
+  padding: 40px;
+  background-color: #121212;
+  color: white;
 }
 
-.hero {
-    background-color: #1e1e1e;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
+.store-header {
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-.hero h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+.games-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.hero p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+/* Estilo para las tarjetas de juegos */
+.game-card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  margin: 20px;
+  width: 220px;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.game-info {
+  margin-top: 15px;
+}
+
+.game-info h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.game-info p {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+/* Botón para añadir al carrito */
+.add-to-cart-button {
+  background-color: #ff4655;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.add-to-cart-button:hover {
+  background-color: #cc3744;
+}
+
+/* Header styles (ajustes de contador del carrito) */
+.header {
+  background-color: #1b1b1b;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left .logo {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-right a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.cart-link {
+  position: relative;
+  font-size: 1em;
+  display: inline-block;
+  color: white;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+/* SearchBar */
+.search-bar-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 1em;
+}
+
+.search-bar input::placeholder {
+  color: #888;
+}
+
+.search-bar input:focus {
+  outline: none;
+  background-color: #444;
+}
+
+.featured-banner {
+  background-image: url('../../assets/images/game5.jpg'); /* Cambia por una imagen real */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.featured-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: white;
+}
+
+.banner-content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.banner-button {
+  padding: 15px 30px;
+  background-color: #ff4655;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.banner-button:hover {
+  background-color: #cc3744;
 }

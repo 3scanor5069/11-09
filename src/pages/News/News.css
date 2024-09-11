@@ -3,6 +3,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+    
+    background-color: rgb(41, 2, 86);
+    
 }
 
 .hero {
@@ -10,6 +13,7 @@
     color: white;
     padding: 60px 20px;
     text-align: center;
+    margin-top: 60px;
 }
 
 .hero h1 {

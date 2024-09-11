@@ -1,0 +1,113 @@
+{ 
+"admin": [
+  {
+    "id": "1",
+    "usuario": "Juan",
+    "password": "123456",
+    "cargo": "admin"
+  },
+  {
+    "id": "2",
+    "usuario": "admin1234",
+    "password": "123456",
+    "cargo": "admin"
+  },
+  {
+    "id": "3",
+    "usuario": "Carlos",
+    "password": "1234567",
+    "cargo": "admin"
+  }
+],
+"employee": [
+  {
+    "id": "1",
+    "usuario": "lagrasa",
+    "password": "123456", 
+    "cargo": "employee"
+  },
+  {
+    "id": "2",
+    "usuario": "supapa",
+    "password": "123456", 
+    "cargo": "employee"
+  }
+],
+  "client": [ 
+    {
+      "id": "1",
+      "nombre": "Esteban",
+      "apellido": "Adawda",
+      "sexo": "hombre",
+      "usuario": "Esteban",
+      "password": "Soyesteban1234*"
+      
+    },
+    {
+      "id": "2",
+      "nombre": "Alejandro",
+      "apellido": "Espinosa",
+      "sexo": "hombre",
+      "usuario": "ozuna",
+      "password": "Soyesteban2111*"
+      
+    },
+    {
+      "id": "3",
+      "nombre": "Aida",
+      "apellido": "Piñeros",
+      "sexo": "mujer",
+      "usuario": "papeleria",
+      "password": "Soyaida2111*"
+    },
+    {
+      "id": "4",
+      "nombre": "Andrea",
+      "apellido": "Paredes",
+      "sexo": "mujer",
+      "tipoCuerpo": "Endomorfo",
+      "peso": "98",
+      "altura": "200",
+      "usuario": "Andrea",
+      "password": "Papeleria12*"
+      
+    }
+  ], "games": [
+    {
+      "id": "fall-guys",
+      "title": "Fall Guys",
+      "category": "Plataformas, Party",
+      "price": "Gratis",
+      "banner": "url-de-tu-banner.jpg",
+      "media": ["url-de-imagen-1.jpg", "url-de-imagen-2.jpg"],
+      "description": "Fall Guys es un juego de plataformas en línea multijugador...",
+      "funciones": ["copperativo, multijugdor, un solo jugador, compatible con mando"],
+      "generos": ["accion y terror"]
+    },
+    {
+      "id": "otro-juego",
+      "title": "Otro Juego",
+      "category": "Aventura, Acción",
+      "price": "$19.99",
+      "banner": "url-de-tu-banner-otro-juego.jpg",
+      "media": ["url-de-imagen-3.jpg", "url-de-imagen-4.jpg"],
+      "description": "Descripción del otro juego...",
+      "funciones": ["copperativo", "multijugdor", "un solo jugador", "compatible con mando"],
+      "generos": ["accion","terror"]
+    },
+    {
+      "id": "nuevo-juego",
+      "title": "Nuevo Juego Increíble",
+      "category": "Aventura, RPG",
+      "price": "$29.99",
+      "banner": "https://example.com/banner-nuevo-juego.jpg",
+      "media": [
+        "https://example.com/imagen-nuevo-juego-1.jpg",
+        "https://example.com/imagen-nuevo-juego-2.jpg"
+      ],
+      "description": "Este es un nuevo juego increíble que mezcla aventura con elementos de RPG. ¡Prepárate para una experiencia inolvidable!",
+      "funciones": ["copperativo, multijugdor, un solo jugador, compatible con mando"],
+      "generos": ["accion y terror"]
+    }
+  ]
+}
